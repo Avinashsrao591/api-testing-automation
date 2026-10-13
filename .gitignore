@@ -1,0 +1,13 @@
+@'
+target/
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+'@ | Set-Content -Encoding utf8 -NoNewline .gitignore
